@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "dengluViewController.h"
+#import "zhuceViewController.h"
+#import "pengyouquanViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +20,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    dengluViewController *a = [[dengluViewController alloc] init];
+    self.window.rootViewController = a;
+    
+    [self performSelector:@selector(test) withObject:nil afterDelay:1.0];
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
+}
+
+- (void)test {
+    
+    self.window.rootViewController = [[dengluViewController alloc] init];
 }
 
 

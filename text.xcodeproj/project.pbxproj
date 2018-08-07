@@ -13,6 +13,21 @@
 		1BDBC1332118662D00835296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC1322118662D00835296 /* Assets.xcassets */; };
 		1BDBC1362118662D00835296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC1342118662D00835296 /* LaunchScreen.storyboard */; };
 		1BDBC1392118662D00835296 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC1382118662D00835296 /* main.m */; };
+		1BDBC141211867AE00835296 /* dengluViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC140211867AE00835296 /* dengluViewController.m */; };
+		1BDBC144211867B600835296 /* zhuceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC143211867B600835296 /* zhuceViewController.m */; };
+		1BDBC1472118693C00835296 /* pengyouquanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC1462118693C00835296 /* pengyouquanViewController.m */; };
+		1BDBC1492118698600835296 /* 账户.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC1482118698600835296 /* 账户.png */; };
+		1BDBC14B211869A800835296 /* 关于.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC14A211869A800835296 /* 关于.png */; };
+		1BDBC14D211869AE00835296 /* 朋友.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC14C211869AE00835296 /* 朋友.png */; };
+		1BDBC1502118738F00835296 /* firstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC14F2118738F00835296 /* firstTableViewCell.m */; };
+		1BDBC1532118739800835296 /* secondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC1522118739800835296 /* secondTableViewCell.m */; };
+		1BDBC1552118747600835296 /* timg-13.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC1542118747500835296 /* timg-13.jpeg */; };
+		1BDBC1572118762500835296 /* timg-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC1562118762400835296 /* timg-3.jpeg */; };
+		1BDBC159211877ED00835296 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC158211877ED00835296 /* 11.jpg */; };
+		1BDBC15B211877F100835296 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC15A211877F100835296 /* 15.jpg */; };
+		1BDBC15D21187C7800835296 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC15C21187C7800835296 /* 16.jpg */; };
+		1BDBC15F21187C7C00835296 /* 13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BDBC15E21187C7C00835296 /* 13.jpg */; };
+		1BDBC16221187CE800835296 /* TXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDBC16121187CE800835296 /* TXLViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,27 @@
 		1BDBC1352118662D00835296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BDBC1372118662D00835296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BDBC1382118662D00835296 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BDBC13F211867AE00835296 /* dengluViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dengluViewController.h; sourceTree = "<group>"; };
+		1BDBC140211867AE00835296 /* dengluViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dengluViewController.m; sourceTree = "<group>"; };
+		1BDBC142211867B600835296 /* zhuceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zhuceViewController.h; sourceTree = "<group>"; };
+		1BDBC143211867B600835296 /* zhuceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhuceViewController.m; sourceTree = "<group>"; };
+		1BDBC1452118693C00835296 /* pengyouquanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pengyouquanViewController.h; sourceTree = "<group>"; };
+		1BDBC1462118693C00835296 /* pengyouquanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pengyouquanViewController.m; sourceTree = "<group>"; };
+		1BDBC1482118698600835296 /* 账户.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账户.png"; sourceTree = "<group>"; };
+		1BDBC14A211869A800835296 /* 关于.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于.png"; sourceTree = "<group>"; };
+		1BDBC14C211869AE00835296 /* 朋友.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朋友.png"; sourceTree = "<group>"; };
+		1BDBC14E2118738F00835296 /* firstTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstTableViewCell.h; sourceTree = "<group>"; };
+		1BDBC14F2118738F00835296 /* firstTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstTableViewCell.m; sourceTree = "<group>"; };
+		1BDBC1512118739800835296 /* secondTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondTableViewCell.h; sourceTree = "<group>"; };
+		1BDBC1522118739800835296 /* secondTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondTableViewCell.m; sourceTree = "<group>"; };
+		1BDBC1542118747500835296 /* timg-13.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-13.jpeg"; sourceTree = "<group>"; };
+		1BDBC1562118762400835296 /* timg-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-3.jpeg"; sourceTree = "<group>"; };
+		1BDBC158211877ED00835296 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
+		1BDBC15A211877F100835296 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
+		1BDBC15C21187C7800835296 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
+		1BDBC15E21187C7C00835296 /* 13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 13.jpg; sourceTree = "<group>"; };
+		1BDBC16021187CE800835296 /* TXLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXLViewController.h; sourceTree = "<group>"; };
+		1BDBC16121187CE800835296 /* TXLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXLViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +78,15 @@
 		1BDBC11D2118662C00835296 = {
 			isa = PBXGroup;
 			children = (
+				1BDBC1482118698600835296 /* 账户.png */,
+				1BDBC14A211869A800835296 /* 关于.png */,
+				1BDBC14C211869AE00835296 /* 朋友.png */,
+				1BDBC1542118747500835296 /* timg-13.jpeg */,
+				1BDBC1562118762400835296 /* timg-3.jpeg */,
+				1BDBC158211877ED00835296 /* 11.jpg */,
+				1BDBC15A211877F100835296 /* 15.jpg */,
+				1BDBC15C21187C7800835296 /* 16.jpg */,
+				1BDBC15E21187C7C00835296 /* 13.jpg */,
 				1BDBC1282118662C00835296 /* text */,
 				1BDBC1272118662C00835296 /* Products */,
 			);
@@ -62,6 +107,18 @@
 				1BDBC12A2118662C00835296 /* AppDelegate.m */,
 				1BDBC12C2118662C00835296 /* ViewController.h */,
 				1BDBC12D2118662C00835296 /* ViewController.m */,
+				1BDBC13F211867AE00835296 /* dengluViewController.h */,
+				1BDBC140211867AE00835296 /* dengluViewController.m */,
+				1BDBC142211867B600835296 /* zhuceViewController.h */,
+				1BDBC143211867B600835296 /* zhuceViewController.m */,
+				1BDBC1452118693C00835296 /* pengyouquanViewController.h */,
+				1BDBC1462118693C00835296 /* pengyouquanViewController.m */,
+				1BDBC14E2118738F00835296 /* firstTableViewCell.h */,
+				1BDBC14F2118738F00835296 /* firstTableViewCell.m */,
+				1BDBC1512118739800835296 /* secondTableViewCell.h */,
+				1BDBC1522118739800835296 /* secondTableViewCell.m */,
+				1BDBC16021187CE800835296 /* TXLViewController.h */,
+				1BDBC16121187CE800835296 /* TXLViewController.m */,
 				1BDBC12F2118662C00835296 /* Main.storyboard */,
 				1BDBC1322118662D00835296 /* Assets.xcassets */,
 				1BDBC1342118662D00835296 /* LaunchScreen.storyboard */,
@@ -128,9 +185,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BDBC1572118762500835296 /* timg-3.jpeg in Resources */,
+				1BDBC15F21187C7C00835296 /* 13.jpg in Resources */,
+				1BDBC14B211869A800835296 /* 关于.png in Resources */,
 				1BDBC1362118662D00835296 /* LaunchScreen.storyboard in Resources */,
+				1BDBC159211877ED00835296 /* 11.jpg in Resources */,
+				1BDBC1552118747600835296 /* timg-13.jpeg in Resources */,
+				1BDBC15B211877F100835296 /* 15.jpg in Resources */,
 				1BDBC1332118662D00835296 /* Assets.xcassets in Resources */,
+				1BDBC15D21187C7800835296 /* 16.jpg in Resources */,
+				1BDBC1492118698600835296 /* 账户.png in Resources */,
 				1BDBC1312118662C00835296 /* Main.storyboard in Resources */,
+				1BDBC14D211869AE00835296 /* 朋友.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +208,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BDBC12E2118662C00835296 /* ViewController.m in Sources */,
+				1BDBC1502118738F00835296 /* firstTableViewCell.m in Sources */,
+				1BDBC1472118693C00835296 /* pengyouquanViewController.m in Sources */,
 				1BDBC1392118662D00835296 /* main.m in Sources */,
 				1BDBC12B2118662C00835296 /* AppDelegate.m in Sources */,
+				1BDBC144211867B600835296 /* zhuceViewController.m in Sources */,
+				1BDBC141211867AE00835296 /* dengluViewController.m in Sources */,
+				1BDBC16221187CE800835296 /* TXLViewController.m in Sources */,
+				1BDBC1532118739800835296 /* secondTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
